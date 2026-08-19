@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.eu{
+    width: 100px;
+    margin-bottom: 90px;
+}
+
+body{
+    /* background-image: url('/assets/bg-contador.png');  */
+    background-image: url(../assets/dead.webp);
+    /* background-image: url('./bg-contador.png'); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    /* user-select: none; */
+}
+.normal{
+    background-color: #ffff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #0d130480;
+}
+
+h3{
+    font-size: 20px;
+}
+.title {
+    font-size: calc(10px + 3vw);
+}
+
+.title p {
+    font-size: calc(10px + 1vw);
+}
+
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countdown h1{
+    font-size: calc(10px + 8vw);
+    text-shadow: 0 0 10px  whitesmoke;
+}
+
+.button{
+    background-color: rgb(65, 40, 33);
+    color: rgb(228, 222, 222);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(82, 53, 45);
+    color: whitesmoke;
+}
