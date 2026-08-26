@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
     <script src="js/bootstrap.js"></script>
     <title>Contador</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -28,17 +30,26 @@
         </div>
     </nav>
 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/Aulão.jpg" class="d-block w-100" alt="Imagem Carrosel 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/TudoSobre.jpg" class="d-block w-100" alt="Imagem Carrosel 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/Implantacao.jpg" class="d-block w-100" alt="Imagem Carrosel 3">
+            </div>
+        </div>
+    </div>
 
     <div class="container">
-        <div class='title'>            
-            <h1>LIVE</h1>
-            <img class="eu" src="assets/images.jpg" alt="eu">
-            <h3>A live começará</h3>
-            <p>Em breve</p>
-        </div>
+        <h1>Aprenda Tudo Sobre <span class="destaque">Inteligência Artificial</span> em apenas <span class="destaque">1 dia</span>!</h1>
+        <p>Não perca a oportunidade de se inscrever no nosso <span class="destaque">curso intensivo de Inteligência Artificial.</span> Aprenda com os melhores especialistas da área e adquira habilidades valiosas em apenas um dia!</p>
 
         <div class="countdown">
-            <div >
+            <div>
                 <h1 id="dias">00</h1>
                 <p>Dias</p>
             </div>
@@ -47,7 +58,7 @@
                 <p>Horas</p>
             </div>
             <div>
-                <h1  id="minutos">00</h1>
+                <h1 id="minutos">00</h1>
                 <p>Minutos</p>
             </div>
             <div>
@@ -56,11 +67,12 @@
             </div>
         </div>
 
-        <div class='button' id='btnCadastrar'>            
+        <div class='button' id='btnCadastrar'>
             <p>Cadastre-se</p>
         </div>
     </div>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
