@@ -59,5 +59,10 @@ if (elementoContador) {
 
 const buttonCadastrar = document.getElementById('btnCadastrar');
 buttonCadastrar.addEventListener('click', function() {
-    window.location.href = 'cadastro.html';
+    window.location.href = 'contato.html';
+});
+
+const buttonSaibaMais = document.getElementById('btnSaibaMais');
+buttonCadastrar.addEventListener('click', function() {
+    window.location.href = 'evento.html';
 });

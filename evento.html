@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/index.css">
     <script src="js/bootstrap.js"></script>
-    <title>Contador</title>
+    <title>Saiba Mais</title>
 </head>
 
 <body>
@@ -21,7 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Início</a>
+                        <a class="nav-link" aria-current="page" href="evento.html">Evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
@@ -46,32 +49,55 @@
     </div>
 
     <div class="container">
-        <h1>Aprenda Tudo Sobre <span class="destaque">Inteligência Artificial</span> em apenas <span class="destaque">1 dia</span>!</h1>
-        <p>Não perca a oportunidade de se inscrever no nosso <span class="destaque">curso intensivo de Inteligência Artificial.</span> Aprenda com os melhores especialistas da área e adquira habilidades valiosas em apenas um dia!</p>
+        <h1>Saiba Mais Sobre o <span class="destaque">Maior</span> evento de <span class="destaque">AI</span> do Brasil
+        </h1>
+        <p class="fs-4">Todos os dias <span class="destaque">milhares de alunos</span> ficam ricos trabalhando com <span
+                class="destaque">Inteligência Artificial!</span> São 3 dias intensos de palestras, workshops práticos e
+            networking direto com os maiores nomes do mercado de tecnologia. Você sai de lá com um plano de carreira
+            definido e domínio das ferramentas que os profissionais mais bem pagos da área usam no dia a dia.</p>
 
-        <div class="countdown">
-            <div>
-                <h1 id="dias">00</h1>
-                <p>Dias</p>
-            </div>
-            <div>
-                <h1 id="horas">00</h1>
-                <p>Horas</p>
-            </div>
-            <div>
-                <h1 id="minutos">00</h1>
-                <p>Minutos</p>
-            </div>
-            <div>
-                <h1 id="segundos">00</h1>
-                <p>Segundos</p>
+        <div class="container my-5">
+            <div class="d-flex flex-wrap justify-content-center gap-4">
+
+                <div class="card border-info-subtle shadow-sm" style="width: 18rem;">
+                    <img src="assets/palestrantes.jpg" class="card-img-top" alt="Palestrantes do evento">
+                    <div class="card-body">
+                        <h4 class="card-title"><span class="destaque">Palestrantes Internacionais</h5>
+                                <p class="card-text">Mais de 15 especialistas em IA de empresas como Google, OpenAI e
+                                    Meta, direto no palco principal.</p>
+                    </div>
+                </div>
+
+                <div class="card border-info-subtle shadow-sm" style="width: 18rem;">
+                    <img src="assets/workshops.jpg" class="card-img-top" alt="Workshops práticos">
+                    <div class="card-body">
+                        <h4 class="card-title"><span class="destaque">Workshops Práticos</h5>
+                                <p class="card-text">8 workshops hands-on em machine learning, LLMs e automação, com
+                                    vagas limitadas.</p>
+                    </div>
+                </div>
+
+                <div class="card border-info-subtle shadow-sm" style="width: 18rem;">
+                    <img src="assets/networking.jpg" class="card-img-top" alt="Sessão de networking">
+                    <div class="card-body">
+                        <h4 class="card-title"><span class="destaque">Networking</h5>
+                                <p class="card-text">Conecte-se com profissionais e recrutadores do setor após as
+                                    palestras.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
         <div class='button' id='btnCadastrar'>
-            <p>Cadastre-se</p>
+            <p>Contate-nos</p>
         </div>
     </div>
+    <footer class="border-top py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Tudo Sobre AI em 1 dia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
