@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
     <title>Cadastro</title>
@@ -35,22 +36,29 @@
         </div>
     </nav>
 
-
     <h1 class="text-center" style="margin-top: 20px;">Cadastro</h1>
 
     <div class="container-sm">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Insira seu Email aqui</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Insira sua mensagem aqui</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="mb-3">
-            <button type="button" class="btn btn-primary">Enviar</button>
-        </div>
+    <div class="mb-3">
+        <label for="nomeInput" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nomeInput" placeholder="Seu nome completo">
     </div>
+    <div class="mb-3">
+        <label for="emailInput" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="assuntoInput" class="form-label">Assunto</label>
+        <input type="text" class="form-control" id="assuntoInput" placeholder="Sobre o que você quer falar?">
+    </div>
+    <div class="mb-3">
+        <label for="mensagemInput" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagemInput" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <button type="button" class="btn btn-primary">Enviar</button>
+    </div>
+</div>
 
     <footer class="border-top py-4 mt-5">
     <div class="container text-center">

@@ -63,6 +63,6 @@ buttonCadastrar.addEventListener('click', function() {
 });
 
 const buttonSaibaMais = document.getElementById('btnSaibaMais');
-buttonCadastrar.addEventListener('click', function() {
+buttonSaibaMais.addEventListener('click', function() {
     window.location.href = 'evento.html';
 });
