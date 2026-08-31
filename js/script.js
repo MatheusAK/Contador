@@ -57,8 +57,8 @@ if (elementoContador) {
     contagemRegressiva(tempoRestante());
 }
 
-const buttonCadastrar = document.getElementById('btnCadastrar');
-buttonCadastrar.addEventListener('click', function() {
+const buttonContato = document.getElementById('btnContato');
+buttonContato.addEventListener('click', function() {
     window.location.href = 'contato.html';
 });
 
