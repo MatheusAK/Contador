@@ -57,12 +57,17 @@ if (elementoContador) {
     contagemRegressiva(tempoRestante());
 }
 
+// Só registra o listener se o botão existir nessa página
 const buttonContato = document.getElementById('btnContato');
-buttonContato.addEventListener('click', function() {
-    window.location.href = 'contato.html';
-});
+if (buttonContato) {
+    buttonContato.addEventListener('click', function() {
+        window.location.href = 'contato.html';
+    });
+}
 
 const buttonSaibaMais = document.getElementById('btnSaibaMais');
-buttonSaibaMais.addEventListener('click', function() {
-    window.location.href = 'evento.html';
-});
+if (buttonSaibaMais) {
+    buttonSaibaMais.addEventListener('click', function() {
+        window.location.href = 'evento.html';
+    });
+}
