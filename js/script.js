@@ -71,3 +71,10 @@ if (buttonSaibaMais) {
         window.location.href = 'evento.html';
     });
 }
+
+const buttonRedeSocial = document.getElementById('button-rede-social');
+if (buttonRedeSocial) {
+    buttonRedeSocial.addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+}
